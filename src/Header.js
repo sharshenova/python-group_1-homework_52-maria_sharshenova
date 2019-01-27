@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './Header.css';
 
 class Header extends Component {
   render() {
     return (
       <div className="Header">
-        <nav className="navbar navbar-expand-lg navbar-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
           <div className="container">
-            <a className="navbar-brand text-success ml-md-5" href="#">
-              <img src="image/logo1.png" alt="Kinopoisk"></img>
+            <a className="navbar-brand" href="#">
+              <img src="logo.png" height="50px" alt="Booking machine"></img>
             </a>
 
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,3 +44,8 @@ class Header extends Component {
 }
 
 export default Header;
+
+
+
+
+
